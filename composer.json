@@ -1,0 +1,20 @@
+{
+    "name": "spitoglou/multi-api",
+    "description": "Multiple response formats",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stavros Pitoglou",
+            "email": "s.pitoglou@csl.gr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Spitoglou\\MultiApi\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
