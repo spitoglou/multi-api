@@ -2,8 +2,11 @@ Laravel 5.2 Multi Api Package
 
 # spitoglou/multi-api
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+This package was initially developed for personal (and colleague) use.
+
+It provides the necessary functionality to produce api responses in JSON, XML or HTML (simple table) formats. 
+The api consumer determines the format of the response he/she needs by setting the "Accept" header of the request accordingly 
+("application/json", "application/custom+xml","application/text" respectively).
 
 ## Install
 
@@ -14,9 +17,18 @@ $ composer require spitoglou/multi-api
 ```
 
 ## Usage
+#### Normal Response
 
 ``` php
---
+$array = [["name"=>"Stavros", "surname"=>"Pitoglou],["name"=>"John", "surname"=>"Doe"];
+$sender = new Spitoglou\MultiApi\Sender($array);
+$sender->finalSend();
+```
+#### Error
+``` php
+$array = ["errorCode"=>"654987", "errorDescription"=>"Some Exotic Error]
+$sender = new Spitoglou\MultiApi\Sender($array);
+$sender->sendError(500);
 ```
 
 ## Change log
@@ -25,13 +37,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ## Testing
 
-``` bash
-$ composer test
-```
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details.
+Have Not Added Tests yet...
 
 ## Security
 
