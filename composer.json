@@ -1,6 +1,13 @@
 {
     "name": "spitoglou/multi-api",
     "description": "Multiple response formats",
+    "keywords": [
+        "laravel",
+        "api",
+        "xml",
+        "json",
+        "response"
+    ],
     "license": "MIT",
     "authors": [
         {
