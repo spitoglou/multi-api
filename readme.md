@@ -1,8 +1,9 @@
 Laravel 5.2 Multi Api Package
 
+[![Build Status](https://travis-ci.org/spitoglou/multi-api.svg?branch=master)](https://travis-ci.org/spitoglou/multi-api)
 [![Latest Stable Version](https://poser.pugx.org/spitoglou/multi-api/version)](https://packagist.org/packages/spitoglou/multi-api)
-[![Total Downloads](https://poser.pugx.org/spitoglou/multi-api/downloads)](https://packagist.org/packages/spitoglou/multi-api)
 [![Latest Unstable Version](https://poser.pugx.org/spitoglou/multi-api/v/unstable)](//packagist.org/packages/spitoglou/multi-api)
+[![Total Downloads](https://poser.pugx.org/spitoglou/multi-api/downloads)](https://packagist.org/packages/spitoglou/multi-api)
 [![License](https://poser.pugx.org/spitoglou/multi-api/license)](https://packagist.org/packages/spitoglou/multi-api)
 
 # spitoglou/multi-api
